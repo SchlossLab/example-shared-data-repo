@@ -12,3 +12,5 @@ ln -sf /Users/kiverson/testdata data
 ```
 
 where `/Users/kiverson/testdata` is your local data directory. Note: this WILL NOT be tracked and other users of the repo will not see any changes you make to data/.
+
+If you plan to work this way you'll want to put the data directory in your local git exclude `.git/info/exclude` and  this will exclude the data diretory from being tracked on your local machine but won't affect other users.
